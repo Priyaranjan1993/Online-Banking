@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Registration---1</title>
+        
+        <!-- The stylesheet -->
+        <link rel="stylesheet" href="css/newstyle.css" type="text/css"/>
+        
+         <script type="text/javascript" src="js/Authenticate5.js"></script>
+         <style type="text/css" rel="stylesheet"> 
+        body
+        {
+        background: url("images/flower.jpg");
+        }
+        </style>
+        </head>
+    
+    <body>
+     <div  class="form" >
+
+            <form name="Auth15" action="user_id2.jsp" method="post" onsubmit="return validate()">
+
+                <p class="contact"><label for="name">Name</label></p>
+
+                <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text">
+
+ 
+
+                <p class="contact"><label for="email">Email</label></p>
+
+                <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+
+ 
+
+                <p class="contact"><label for="username">Create a userID</label></p>
+
+                <input id="username" name="username" placeholder="userID" required="" tabindex="2" type="text">
+
+                <p class="contact"><label for="password">Create a password</label></p>
+
+                <input type="password" id="password" name="password" required="" >
+
+               <fieldset>
+
+                 <label>Birthday</label>
+
+                  <label class="month">
+
+                <p></p>
+                  
+                  <input type="date"  name="BirthMonth" id="date" required="">
+                  
+
+              </fieldset>
+
+ 
+
+            <select class="select-style gender" name="gender">
+
+            <option value="select">i am..</option>
+
+            <option value="m">Male</option>
+
+            <option value="f">Female</option>
+
+            <option value="others">Other</option>
+
+            </select><br><br>
+
+ 
+
+            <p class="contact"><label for="phone">Mobile phone</label></p>
+
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+            
+            <input class="buttom" name="submit" id="submit"  tabindex="5" value="NEXT-->>" type="submit">   
+            
+            </form>
+
+
+</div>
+</body>
+</html>
